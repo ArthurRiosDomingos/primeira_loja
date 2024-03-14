@@ -7,14 +7,37 @@
         <title>Meu Castelo</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <header>
-        <img src="imagens/logotipo.png" alt="logotipo">
-        <h1>Bem Vindo!</h1>
-        <h2>Venha conhecer nossa incrível loja de móveis, onde tudo fica bonito na ua casa</h2>
+    <header class="header">
+        <img src="imagens/logotipo.jpg" alt="logotipo" class="logotipo">
+        <div>
+            <div style="display: flex; align-items: center;">
+                <h1 style="margin-right: 10px;">Bem Vindo!</h1>
+                <h2>Meu Castelo</h2>
+            </div>
+            <h2>Venha conhecer nossa incrível loja de móveis, onde tudo fica bonito na sua casa</h2>
+        </div>
     </header>
     <main>
-        <img src="imagens/poltrona.jpg">
+        <div class="produto-wrapper">
+            <div class="produto">
+                <img class="poltrona" src="imagens/poltrona.jpg">
+                <h3 class="precoPoltrona"> R$ 1500 ou <br>até 12x sem juros</h3>
+            </div>
+            <div class="produto">
+                <img class="poltrona" src="imagens/papai.png">
+                <h3 class="precoPoltrona"> R$ 2300 ou <br>até 12x sem juros</h3>
+            </div>
+            <div class="produto">
+                <img class="poltrona" src="imagens/sofa.png">
+                <h3 class="precoPoltrona"> R$ 4500 ou <br>até 12x sem juros</h3>
+            </div>
+        </div>
+        <div class="produto-weapper2">
+            <div>
+                <img src="imagens/rack.png">
+            </div>
 
+        </div>
     </main>
 </body>
 </html>

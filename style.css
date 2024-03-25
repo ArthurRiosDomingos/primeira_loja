@@ -37,20 +37,6 @@ header {
         height: 40px;
     }
 }
-.produto-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-.produto-wrapper2{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 300px;
-}
 body{
     display: grid;
     grid-template-areas:
@@ -88,3 +74,45 @@ footer{
         grid-template-rows: auto auto auto;
     }
 } 
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.produto-wrapper{
+    border-radius: 10px;
+    width: 300px;
+    height: 450;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: chartreuse;
+    transition: 0.5s;
+}
+.produto-wrapper :hover{
+    background-color: deeppink;
+}
+.produto-weapper img{
+    width: 280px;
+    border-radius: 5px;
+}
+.produto-weapper a{
+    border-radius: 30px;
+    background-color: chocolate;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 1s;
+}
+.produto-weapper a:hover{
+    background-color: beige;
+    color: rgb(12, 7, 0)
+}
+.sofa{
+    width: 300px;
+}

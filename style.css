@@ -1,68 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+header img{
+    width: 700px;
+}
+header {
+    background-color: purple;
+    width: 100%;
+    display: flex;
+}
+.logotipo{
+    width: 100px;
+}
+
+@media (max-width: 800px) {
+    header {
+        background-color: red;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 400px) {
+    header {
+        background-color: green;
+    }
+
+    .logotipo {
+        width: 40px;
+        height: 40px;
+    }
+}
 body{
     display: grid;
     grid-template-areas:
     "cabeca cabeca cabeca"
-    "lateral meio meio "
-    "pe pe pe"
+    "lateral meio meio"
+    "pe pe pe";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 header{
     grid-area: cabeca;
-    background-color: antiquewhite;
+    background-color: red;
     text-align: center;
-    width: 100%;
-    display: flex;
 }
 aside{
     grid-area: lateral;
-    background-color: aquamarine;
+    background-color: blue;
 }
 main{
     grid-area: meio;
-    background-color: grey;
-}
-main img{
-    height: 300px;
+    background-color: aqua;
 }
 footer{
     grid-area: pe;
-    background-color: blanchedalmond;
+    background-color: violet;
 }
-
-@media screen and (max-width: 800){
-        body{
-            grid-template-areas:
-            "cabeca"
-            "lateral"
-            "meio"
-            "pe";
-            grid-template-columns: auto;
-            grid-template-rows: auto auto auto;
-        }
-}
-.caixamae{
+@media screen and (max width: 800px){
+    body{
+        grid-template-areas: 
+        "cabeca"
+        "lateral"
+        "meio"
+        "pe";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+} 
+.caixa_mae{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.card{
+.produto-wrapper{
     border-radius: 10px;
     width: 300px;
-    height: 450px;
+    height: 450;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: blue;
+    background-color: chartreuse;
+    transition: 0.5s;
 }
-.card:hover{
+.produto-wrapper :hover{
     background-color: deeppink;
 }
-.card img{
-    width: 250px;
+.produto-weapper img{
+    width: 280px;
     border-radius: 5px;
 }
-.card a{
+.produto-weapper a{
     border-radius: 30px;
     background-color: chocolate;
     display: block;
@@ -70,13 +106,20 @@ footer{
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: aqua;
+    color: antiquewhite;
     transition: 1s;
 }
-.card a:hover{
-    background-color: blueviolet;
-    color: darkseagreen;
+.produto-weapper a:hover{
+    background-color: beige;
+    color: rgb(12, 7, 0)
 }
-.logotipo{
-    width: 120px;
+.sofa{
+    width: 300px;
+}
+.logotipoo{
+    width: 100px;
+}
+.contatos{
+    text-align: center;
+    align-items: center;
 }

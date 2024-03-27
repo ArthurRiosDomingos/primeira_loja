@@ -48,16 +48,16 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: red;
+    background-color: violet;
     text-align: center;
 }
 aside{
     grid-area: lateral;
-    background-color: blue;
+    background-color: indigo;
 }
 main{
     grid-area: meio;
-    background-color: aqua;
+    background-color: white;
 }
 footer{
     grid-area: pe;
@@ -88,11 +88,11 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: chartreuse;
+    background-color: purple;
     transition: 0.5s;
 }
 .produto-wrapper :hover{
-    background-color: deeppink;
+    background-color: violet;
 }
 .produto-weapper img{
     width: 280px;

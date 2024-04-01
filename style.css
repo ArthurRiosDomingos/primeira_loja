@@ -3,14 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    width: 100vw;
-}
-
-header img{
-    width: 700px;
-}
 header {
     background-color: purple;
     width: 100%;
@@ -48,20 +40,21 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: red;
+    background-color: cornflowerblue;
     text-align: center;
+    position: relative;
 }
 aside{
     grid-area: lateral;
-    background-color: blue;
+    background-color: cornflowerblue;
 }
 main{
     grid-area: meio;
-    background-color: aqua;
+    background-color: white;
 }
 footer{
     grid-area: pe;
-    background-color: violet;
+    background-color: darkcyan;
 }
 @media screen and (max width: 800px){
     body{
@@ -88,11 +81,12 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: chartreuse;
+    background-color: cadetblue;
     transition: 0.5s;
+    box-shadow: 3px 6px 9px darkcyan;
 }
 .produto-wrapper :hover{
-    background-color: deeppink;
+    background-color: darkcyan;
 }
 .produto-weapper img{
     width: 280px;
@@ -106,8 +100,8 @@ footer{
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: antiquewhite;
     transition: 1s;
+    
 }
 .produto-weapper a:hover{
     background-color: beige;
@@ -122,4 +116,8 @@ footer{
 .contatos{
     text-align: center;
     align-items: center;
+}
+.texto{
+    position: absolute;
+    left: 300px;
 }

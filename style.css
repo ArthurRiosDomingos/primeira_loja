@@ -92,17 +92,6 @@ footer{
     width: 280px;
     border-radius: 5px;
 }
-.produto-weapper a{
-    border-radius: 30px;
-    background-color: chocolate;
-    display: block;
-    height: 30px;
-    width: 120px;
-    text-align: center;
-    text-decoration: none;
-    transition: 1s;
-    
-}
 .produto-weapper a:hover{
     background-color: beige;
     color: rgb(12, 7, 0)
@@ -120,4 +109,14 @@ footer{
 .texto{
     position: absolute;
     left: 300px;
+    text-align: center;
+}
+.caixa_mae a{
+    background-color: darkcyan;
+    border-radius: 80px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }

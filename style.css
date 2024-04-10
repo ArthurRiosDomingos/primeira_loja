@@ -9,7 +9,7 @@ header {
     display: flex;
 }
 .logotipo{
-    width: 100px;
+    width: 200px;
 }
 
 @media (max-width: 800px) {
@@ -29,7 +29,7 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: beige;
+    background-color: cadetblue;
     text-align: center;
     position: relative;
 }
@@ -43,7 +43,7 @@ main{
 }
 footer{
     grid-area: pe;
-    background-color: beige;
+    background-color: cadetblue;
 }
 @media screen and (max-width: 800px){
     body{
@@ -88,10 +88,10 @@ footer{
 }
 .sofa{
     height: 250px;
-    max-width: 250px;
+    max-width: 270px;
 }
 .logotipoo{
-    width: 100px;
+    width: 200px;
 }
 .contatos{
     text-align: center;
@@ -110,5 +110,4 @@ footer{
     text-align: center;
     text-decoration: none;
     color: black;
-    
 }

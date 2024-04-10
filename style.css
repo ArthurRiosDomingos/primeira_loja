@@ -29,7 +29,7 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: lightseagreen;
+    background-color: beige;
     text-align: center;
     position: relative;
 }
@@ -43,7 +43,7 @@ main{
 }
 footer{
     grid-area: pe;
-    background-color: mediumpurple;
+    background-color: beige;
 }
 @media screen and (max-width: 800px){
     body{
@@ -75,10 +75,11 @@ footer{
     box-shadow: 3px 6px 9px darkcyan;
 }
 .produto-wrapper :hover{
-    background-color: darkcyan;
+    background-color: beige;
+    transition: 1.5s
 }
 .produto-weapper img{
-    width: 280px;
+    height: 280px;
     border-radius: 5px;
 }
 .produto-weapper a:hover{
@@ -86,7 +87,8 @@ footer{
     color: rgb(12, 7, 0)
 }
 .sofa{
-    width: 300px;
+    height: 250px;
+    max-width: 250px;
 }
 .logotipoo{
     width: 100px;
@@ -103,9 +105,10 @@ footer{
 .caixa_mae a{
     background-color: darkcyan;
     border-radius: 80px;
-    height: 30px;
+    padding: 5px;
     width: 80px;
     text-align: center;
     text-decoration: none;
     color: black;
+    
 }

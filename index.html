@@ -4,21 +4,75 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu Castelo</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
+    
+
+
+    <!--aqui estou modificando o Header colocando imagens e o class da fonte-->
 <body>
-    <header>
-        <img src="imagens/logotipo.png" alt="logotipo" class="logotipo">
-        <div class="texto">
-            <h1>Bem Vindo!</h1>
-            <h2>Meu Castelo</h2>
-            <h2>Venha conhecer nossa incrível loja de móveis, onde tudo fica bonito na sua casa</h2>
-        </div>
+    <header class="pacifico-regular">
+            <img src="imagens/logotipo.png" alt="logotipo" class="logotipo">
+            <div class="texto">
+                <div>
+                    <h1>Bem vindo! Meu Castelo</h1><h2>onde tudo fica bonito na sua casa</h2>
+                </div>
+            </div>    
     </header>
-    <aside>
-        lateral
+    <!--termino da modificação do Header-->
+
+
+
+    <!--aqui estou modificando o botão MENU no ASIDE-->
+    <aside class="menus">
+        <nav class="menu-item">
+            <ul>
+                <li class="menuu">
+                    <a href="">Menu</a>
+                    <div class="menuu-item">
+                        <a href="">Login</a>
+                        <a href="">Entrar</a>
+                        <a href="">Sobre</a>
+                        <a href="">Produtos</a>
+                    </div>    
+                </li>
+            </ul>        
+        </nav>
     </aside>
+    <!--termino da modificação do botão MENU-->
+
+
+
+    <!--aqui estou modificando o botão SERVIÇOS no MAIN-->
     <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Sobre nós</a>
+                </li>
+                <li class="dropdown">
+                    <a href="">Seriços</a>
+                    <div class="dropdown-menu">
+                        <a href="">Seriço 1</a>
+                        <a href="">Seriço 2</a>
+                        <a href="">Seriço 3</a>
+
+                    </div>
+                </li>
+            </ul>
+        </nav> 
+    <!--termino da modificação do botão SERVIÇOS-->
+    
+    
+        
+
+    <!--Aqui estou adicionando as imagens e legendas do Card-->
         <section class="caixa_mae">
         <div class="produto-wrapper">
             <img src="imagens/sofa.png" class="sofa">
@@ -80,17 +134,23 @@
             <h2>Cooktop indução <br> por apenas R$699,99</h2>
             <a href="www.google">saiba mais</a>
         </div>
+    <!--termino das imgaens e legendas do card--> 
+    
+    
+    
+    <!--aqui estou modificando o FOOTER-->
         </section>
     </main>
     <footer class="contatos" >
         <img class="logotipoo" src="imagens/logotipo.png" alt="logotipo">
         <h2>Contatos</h2>
         <ul>
-            <li><h3>Instagram: @meu_castelo</h3></li>
-            <li><h3>Whatsapp: 4599536798</h3></li>
-            <li><h3>Facebook: meu_castelo</h3></li>
-            <li><h3>Email: meuscastelo@gmail.com</h3></li>
+            <h3>Instagram: @meu_castelo</h3>
+            <h3>Whatsapp: 4599536798</h3>
+            <h3>Facebook: meu_castelo</h3>
+            <h3>Email: meuscastelo@gmail.com</h3>
         </ul>
     </footer>
+    <!--termino da modificação do footer-->
 </body>
 </html>

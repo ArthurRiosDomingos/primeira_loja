@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 header {
-    background-color: purple;
     width: 100%;
     display: flex;
 }
@@ -18,6 +17,7 @@ header {
         flex-direction: column;
     }
 }
+    /*aqui estou começando o grid*/
 body{
     display: grid;
     grid-template-areas:
@@ -31,15 +31,14 @@ header{
     grid-area: cabeca;
     background-color: cadetblue;
     text-align: center;
-    position: relative;
 }
 aside{
     grid-area: lateral;
-    background-color: cornflowerblue;
+    background-color: #333;
 }
 main{
     grid-area: meio;
-    background-color: white;
+    background-color: dimgrey;
 }
 footer{
     grid-area: pe;
@@ -55,7 +54,12 @@ footer{
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
     }
+    /*termino do grid*/
 } 
+
+
+
+    /*aqui estou iniciando o card*/
 .caixa_mae{
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +90,12 @@ footer{
     background-color: beige;
     color: rgb(12, 7, 0)
 }
+    /*termino do card*/
+
+
+
+
+    /*aqui estou fazendo algumas modificações no header, footer e main*/
 .sofa{
     height: 250px;
     max-width: 270px;
@@ -98,9 +108,12 @@ footer{
     align-items: center;
 }
 .texto{
-    position: absolute;
-    left: 300px;
     text-align: center;
+    align-items: center;
+    padding: 40px 600px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
 }
 .caixa_mae a{
     background-color: darkcyan;
@@ -111,3 +124,78 @@ footer{
     text-decoration: none;
     color: black;
 }
+    /*termino das modificações no header, footer e main*/
+
+
+
+
+    /* aqui estou colocando fonte de letra no header*/
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+    /*termino da fonte*/
+
+
+
+    /*começo da modificação do MENU no aside*/
+.menu li{
+    display: inline-block;
+}
+menu li a{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+}
+.menu-item a:hover{
+    background-color: darkcyan;
+    transition: 1.5s;
+}
+
+.menuu-item{
+    position: absolute;
+    display: none;
+    background-color: #333;
+}
+.menuu-item a{
+    display: block;
+}
+.menuu:hover .menuu-item{
+    display: block;
+}
+    /* termino da modificação do MENU no aside*/
+
+
+    
+    /*aqui estou modificando a opção SERIÇOS*/
+nav{
+    background-color: #333;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+nav li a:hover{
+    background-color: darkcyan;
+    transition: 1.5s;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: #333;
+}
+.dropdown-menu a{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+    /*termino da modificação SERIÇOS*/
+
+

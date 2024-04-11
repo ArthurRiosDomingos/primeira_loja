@@ -7,6 +7,8 @@
 body{
     background-color: dimgrey;
 }
+
+    /*aqui estou modificando as imagens do main logo, search, menu e cart*/
 .menu{
     display: flex;
     justify-content: space-between;
@@ -36,6 +38,11 @@ body{
     height: 100%;
     width: 100%;
 }
+    /*termino das modificações das imagens*/
+
+
+
+    /*aqui estou modificando os textos das descrições*/
 .left h1{
     font-size: 50px;
     color: #00C0AF;
@@ -67,3 +74,5 @@ body{
     width: 700px;
     height: 500px;
 }
+    /*termino das modificações dos textos*/
+

@@ -75,4 +75,15 @@ body{
     height: 500px;
 }
     /*termino das modificações dos textos*/
-
+@media screen and (max-width: 820px){
+    main{
+        background-color: darkslategray;
+        display: flex;
+        flex-direction: column;
+    }
+    .mai{
+        background-color: darkslategrey;
+        display: flex;
+        flex-direction: column;
+    }
+}

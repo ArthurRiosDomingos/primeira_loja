@@ -10,29 +10,8 @@ header {
 .logotipo{
     width: 200px;
 }
-@media screen and (max-width: 820px){
-    .pacifico-regular{
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 820px){
-    .base{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
-@media screen and (max-width: 820px){
-    .contatos{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
-    
 
-
+    
     /*aqui estou começando o grid*/
 body{
     display: grid;
@@ -72,8 +51,34 @@ footer{
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
     }
+}
+@media screen and (max-width: 820px){
+    header{
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: 
+        "cabeca"
+        "lateral"
+        "meio"
+        "pe";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+}
+@media screen and (max-width: 820px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: 
+        "cabeca"
+        "lateral"
+        "meio"
+        "pe";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+}
     /*termino do grid*/
-} 
 
 
     /*aqui estou iniciando o card*/
@@ -97,7 +102,9 @@ footer{
 }
 .produto-wrapper :hover{
     background-color: beige;
-    transition: 1.5s
+    transition: 1s;
+    border-radius: 15px;
+    padding: 10px 10px;
 }
 .produto-weapper img{
     height: 280px;
@@ -107,12 +114,23 @@ footer{
     background-color: beige;
     color: rgb(12, 7, 0)
 }
+.caixa_mae a{
+    background-color: darkcyan;
+    border-radius: 80px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
     /*termino do card*/
 
 
 
 
-    /*aqui estou fazendo algumas modificações no header, footer e main*/
+    /* modificações no header, footer e main*/
 .sofa{
     height: 250px;
     max-width: 270px;
@@ -129,26 +147,14 @@ footer{
     align-items: center;
     padding: 40px 600px;
     display: flex;
-    justify-content: space-around;
     color: black;
-}
-.caixa_mae a{
-    background-color: darkcyan;
-    border-radius: 80px;
-    padding: 5px;
-    width: 80px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 15px;
 }
     /*termino das modificações no header, footer e main*/
 
 
 
 
-    /* aqui estou colocando fonte de letra no header*/
+    /* fonte de letra no header*/
 .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -187,7 +193,7 @@ menu li a{
 
 
     
-    /*aqui estou modificando a opção SERIÇOS*/
+    /* modificando a opção SERIÇOS*/
 nav{
     background-color: #333;
 }

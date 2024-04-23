@@ -25,7 +25,6 @@ body{
     margin-left: 30px;
 }
 .mai{
-    height: 100vh;
     width: 100%;
     background-color: dimgrey;
     padding: 0 5%;
@@ -34,9 +33,10 @@ body{
 .left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100%;
     width: 100%;
+    margin-top: 80px;
 }
     /*termino das modificações das imagens*/
 
@@ -48,7 +48,7 @@ body{
     color: #00C0AF;
 }
 .left p{
-    color: black;
+    color: white;
     margin-bottom: 80px;
 }
 .left span{
@@ -68,7 +68,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .logotipo{
     width: 700px;

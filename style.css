@@ -101,7 +101,7 @@ footer{
     box-shadow: 3px 6px 9px darkcyan;
 }
 .produto-wrapper :hover{
-    background-color: beige;
+    background-color: darkcyan;
     transition: 1s;
     border-radius: 15px;
     padding: 10px 10px;
@@ -111,7 +111,7 @@ footer{
     border-radius: 5px;
 }
 .produto-weapper a:hover{
-    background-color: beige;
+    background-color: cadetblue;
     color: rgb(12, 7, 0)
 }
 .caixa_mae a{
@@ -222,5 +222,21 @@ nav li a:hover{
     display: block;
 }
     /*termino da modificação SERIÇOS*/
+
+
+.cadastro a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding-right: 3px;
+}
+.entrar a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding-right: 8px;
+
+}
+
 
 

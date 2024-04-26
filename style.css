@@ -223,6 +223,13 @@ nav li a:hover{
 }
     /*termino da modificação SERIÇOS*/
 
+.cadastro{
+    padding: 10px 0;
+}
+
+.entrar{
+    padding: 10px 0;
+}
 
 .cadastro a{
     text-decoration: none;
@@ -235,7 +242,6 @@ nav li a:hover{
     font-size: 17px;
     color: white;
     padding-right: 8px;
-
 }
 
 

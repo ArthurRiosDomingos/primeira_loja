@@ -165,6 +165,10 @@ footer{
 
 
     /*começo da modificação do MENU no aside*/
+
+.menu-item img{
+    width: 22px;
+}
 .menu li{
     display: inline-block;
 }
@@ -192,8 +196,7 @@ menu li a{
     /* termino da modificação do MENU no aside*/
 
 
-    
-    /* modificando a opção SERIÇOS*/
+    /* modificando a opção SERVIÇOS*/
 nav{
     background-color: #333;
 }

@@ -162,38 +162,11 @@ footer{
 }
     /*termino da fonte*/
 
-
-
-    /*começo da modificação do MENU no aside*/
-
 .menu-item img{
-    width: 22px;
-}
-.menu li{
-    display: inline-block;
-}
-menu li a{
-    display: inline-block;
-    color: white;
-    padding: 15px;
-}
-.menu-item a:hover{
-    background-color: darkcyan;
-    transition: 1.5s;
+    width: 35px;
+    padding: 12px 5px;
 }
 
-.menuu-item{
-    position: absolute;
-    display: none;
-    background-color: #333;
-}
-.menuu-item a{
-    display: block;
-}
-.menuu:hover .menuu-item{
-    display: block;
-}
-    /* termino da modificação do MENU no aside*/
 
 
     /* modificando a opção SERVIÇOS*/
@@ -225,6 +198,8 @@ nav li a:hover{
     display: block;
 }
     /*termino da modificação SERIÇOS*/
+
+
 
 .cadastro{
     padding: 10px 0;
